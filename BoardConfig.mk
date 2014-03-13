@@ -15,11 +15,11 @@
 #
 
 #Build kernel inline
-#TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
-#TARGET_KERNEL_CONFIG := hammerhead_defconfig
+TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
+TARGET_KERNEL_CONFIG := hammerhead_defconfig
 
 #Use prebuilt kernel
-PDK_PLATFORM_ZIP_PRODUCT_BINARIES := device/lge/hammerhead-kernel/vmlinux.bz2
+PDK_PLATFORM_ZIP_PRODUCT_BINARIES := $(KERNEL_OUT)/vmlinux.bz2
 
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
