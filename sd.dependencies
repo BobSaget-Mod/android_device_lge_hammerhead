@@ -13,9 +13,9 @@
     },
     {
         "remote":       "aosp",
-        "repository":   "android_hardware_qcom_audio",
+        "repository":   "platform/hardware/qcom/audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "kitkat"
+        "revision":     "refs/tags/android-4.4.4_r1"
     },
     {
         "remote":       "aosp",
