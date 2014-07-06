@@ -17,7 +17,6 @@
 
 KERNEL_DEFCONFIG := hammerhead_defconfig
 KERNEL_DIR := kernel/lge/hammerhead
-KERNEL_USES_DTB := y
 
 -include $(TOP)/$(KERNEL_DIR)/AndroidKernel.mk
 
